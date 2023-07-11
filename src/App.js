@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Cards from './Components/Cards';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Cards 
+      imgsrc= "https://m.media-amazon.com/images/M/MV5BYjc1NzI1NmItYWYyNi00NzVmLWE1M2YtNzQ3MjhkYjhiNGIxXkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_.jpg"
+      link= "https://www.youtube.com/watch?v=SmUl0l8qBXw"
+      title= "Ek tha tiger"
+      sname= "Dark"
+    />
+
+    <Cards
+
+      imgsrc= "https://m.media-amazon.com/images/M/MV5BYjc1NzI1NmItYWYyNi00NzVmLWE1M2YtNzQ3MjhkYjhiNGIxXkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_.jpg"
+      link= "https://www.youtube.com/watch?v=SmUl0l8qBXw"
+      title= "Ek tha tiger"
+    />
+    <Cards
+      imgsrc= "https://m.media-amazon.com/images/M/MV5BYjc1NzI1NmItYWYyNi00NzVmLWE1M2YtNzQ3MjhkYjhiNGIxXkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_.jpg"
+      link= "https://www.youtube.com/watch?v=SmUl0l8qBXw"
+      title= "Ek tha tiger"
+    />
+    <Cards
+      imgsrc= "https://m.media-amazon.com/images/M/MV5BYjc1NzI1NmItYWYyNi00NzVmLWE1M2YtNzQ3MjhkYjhiNGIxXkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_.jpg"
+      link= "https://www.youtube.com/watch?v=SmUl0l8qBXw"
+      title= "Ek tha tiger"
+    />
+
+    
+
+     
     </div>
   );
 }
